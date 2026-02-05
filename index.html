@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/practical-web-dev-logo-removebg-preview.png" sizes="96x96" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/293abf4b96.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <title>Complete Web Developer | Practical Web Dev</title>
+</head>
+
+<body>
+
+  <!-- Mobile Sticky CTA -->
+  <div class="mobile-sticky-cta-container" id="mobile-sticky-cta">
+    <div class="mobile-sticky-cta-inner">
+      <div class="mobile-sticky-price">
+        <p class="mobile-sticky-price-top" id="mobile_price">$50</p>
+        <p class="mobile-sticky-price-sub" id="mobile_price_note">one-time</p>
+      </div>
+      <a class="btn btn-primary btn-sticky" id="mobile_buy_btn" href="#" rel="nofollow">Get Instant Access</a>
+    </div>
+  </div>
+  <!-- Mobile Sticky CTA End -->
+
+  <header class="header">
+    <div class="container">
+      <nav class="main-nav">
+        <div class="brand">
+          <img class="brand-logo" src="img/practical-web-dev-logo-removebg-preview.png" alt="Success & Brawn logo">
+          <p class="brand-name">Practical Web Dev</p>
+        </div>
+
+        <div class="nav-cta">
+          <a class="btn btn-ghost" id="nav_secondary_btn" href="#curriculum">See What’s Inside</a>
+          <a class="btn btn-primary" id="nav_buy_btn" href="#" rel="nofollow">Enroll Now</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-left">
+            <p class="eyebrow" id="eyebrow">COURSE</p>
+            <h1 class="hero-title" id="course_title"></h1>
+            <p class="hero-subtitle" id="course_subtitle"></p>
+
+            <div class="hero-bullets">
+              <div class="hero-bullet">
+                <i class="fa-solid fa-check"></i>
+                <p id="bullet_1">Step-by-step programming (no guesswork)</p>
+              </div>
+              <div class="hero-bullet">
+                <i class="fa-solid fa-check"></i>
+                <p id="bullet_2">Real training, real execution, no fluff</p>
+              </div>
+              <div class="hero-bullet">
+                <i class="fa-solid fa-check"></i>
+                <p id="bullet_3">Lifetime access (watch anytime)</p>
+              </div>
+            </div>
+
+            <div class="hero-cta-row">
+              <a class="btn btn-primary btn-lg" id="hero_buy_btn" href="#" rel="nofollow">Get Instant Access</a>
+              <a class="btn btn-ghost btn-lg" href="#faq">Questions? Read the FAQ</a>
+            </div>
+
+            <div class="hero-meta">
+              <div class="meta-item">
+                <i class="fa-regular fa-clock"></i>
+                <p><span id="meta_hours">6+</span> hours</p>
+              </div>
+              <div class="meta-item">
+                <i class="fa-regular fa-circle-play"></i>
+                <p><span id="meta_lessons">45</span> lessons</p>
+              </div>
+              <div class="meta-item">
+                <i class="fa-regular fa-gem"></i>
+                <p>Lifetime access</p>
+              </div>
+            </div>
+
+            <div class="trust-strip">
+              <p class="trust-text" id="trust_text">
+                Built by Success and Brawn. No hype. Just results and standards.
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <div class="hero-media-card">
+              <div class="hero-media-top">
+                <p class="price" id="price">$50</p>
+                <p class="price-note" id="price_note">one-time purchase</p>
+              </div>
+
+              <div class="hero-media-img-container">
+                <div class="hero-media-img-wrap">
+                  <img class="hero-media-img" id="hero_image" src="img/hero.jpg" alt="Course preview image">
+                </div>
+              </div>
+
+              <div class="hero-media-actions">
+                <a class="btn btn-primary btn-block" id="card_buy_btn" href="#" rel="nofollow">
+                  Enroll Now
+                </a>
+                <p class="small-note" id="guarantee_note">
+                  7-day no-BS refund policy.
+                </p>
+              </div>
+
+              <div class="hero-media-details">
+                <div class="detail-row">
+                  <i class="fa-solid fa-bolt"></i>
+                  <p id="detail_1">Instant access after purchase</p>
+                </div>
+                <div class="detail-row">
+                  <i class="fa-solid fa-mobile-screen-button"></i>
+                  <p id="detail_2">Watch on phone, tablet, or desktop</p>
+                </div>
+                <div class="detail-row">
+                  <i class="fa-solid fa-file-arrow-down"></i>
+                  <p id="detail_3">Downloads / resources included</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="proof-card">
+              <p class="proof-title">This is for you if:</p>
+              <ul class="proof-list" id="for_list">
+                <li>you’re tired of complicated programs</li>
+                <li>you want strength and presence, not influencer nonsense</li>
+                <li>you can execute a simple plan consistently</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="testimonials_title"></h2>
+          <p class="section-subtitle" id="testimonials_subtitle"></p>
+        </div>
+
+        <div class="testimonials-grid" id="testimonials_grid">
+          <!-- injected by JS -->
+        </div>
+      </div>
+    </section>
+    <!-- TESTIMONIALS END -->
+
+    <!-- SOCIAL PROOF / OUTCOMES -->
+    <section class="outcomes">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="outcomes_title">What You’ll Get</h2>
+          <p class="section-subtitle" id="outcomes_subtitle">
+            Clear outcomes. Simple steps. Execute and win.
+          </p>
+        </div>
+
+        <div class="cards-grid" id="outcomes_grid">
+          <div class="card">
+            <h3 class="card-title">A simple approach</h3>
+            <p class="card-text">No fluff. No endless tutorials.
+              You’ll learn a clear, repeatable process for building real websites and applications — from HTML and CSS
+              all the way
+              through JavaScript, PHP, and MySQL — so you’re not guessing how pieces fit together or copying code you
+              don’t
+              understand.</p>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Confidence That Compounds</h3>
+            <p class="card-text">Not hype. Not certificates.
+              Real confidence that comes from building 20+ projects from scratch, understanding what your code is doing,
+              and knowing
+              you can ship real work for employers, clients, or your own products — over and over again.</p>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Leverage &amp; Freedom</h3>
+            <p class="card-text">
+              Web development is a skill that compounds.
+              You’ll gain the ability to earn through a 9–5, freelance contracts, consulting, or your own digital
+              products — giving
+              you leverage, optionality, and long-term income without being locked into one path.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES / BENEFITS -->
+    <section class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="features_title">What This Course Teaches</h2>
+          <p class="section-subtitle" id="features_subtitle">
+            The fundamentals. The details that matter. The execution.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature">
+            <div class="feature-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3 class="feature-title">Foundations First</h3>
+            <p class="feature-text" id="feature_1"></p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h3 class="feature-title">Real-World Logic</h3>
+            <p class="feature-text" id="feature_2"></p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <h3 class="feature-title">Builder Presence</h3>
+            <p class="feature-text" id="feature_3"></p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">
+              <i class="fa-solid fa-gear"></i>
+            </div>
+            <h3 class="feature-title">Systems & Standards</h3>
+            <p class="feature-text" id="feature_4"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURRICULUM -->
+    <section class="curriculum" id="curriculum">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="curriculum_title">Inside The Course</h2>
+          <p class="section-subtitle" id="curriculum_subtitle">
+            Here’s a preview of the first couple of modules...
+          </p>
+        </div>
+
+        <div class="accordion" id="accordion">
+          <div class="accordion-item">
+            <button class="accordion-btn" type="button">
+              <span>Module 1: HTML Mastery</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <ul class="accordion-list">
+                <li>Learn how a webpage is built</li>
+                <li>Understand how to use headings, paragraphs, links, and images</li>
+                <li>Build a full multipage website from scratch</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-btn" type="button">
+              <span>Module 2: Style Web Pages</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <ul class="accordion-list">
+                <li>Learn how to style web pages using CSS</li>
+                <li>Understand color and design theory to make your websites pop</li>
+                <li>Learn how to build complex layouts from scratch</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-btn" type="button">
+              <span>Module 3: JavaScript Mastery</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <ul class="accordion-list">
+                <li>Understand programming from the ground up</li>
+                <li>How to build web applications from scratch</li>
+                <li>The core programming concepts that get stuff done. No BS. No fluff</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="center-cta">
+        <a class="btn btn-primary btn-lg" id="mid_buy_btn" href="#" rel="nofollow">Get Instant Access</a>
+        <p class="small-note" id="mid_note">You can start today.</p>
+      </div>
+    </section>
+
+    <!-- WHO IT'S FOR / NOT FOR -->
+    <section class="fit">
+      <div class="container">
+        <div class="fit-grid">
+          <div class="fit-card">
+            <h2 class="fit-title">This is for you if:</h2>
+            <ul class="fit-list" id="for_list_2">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="fit-card fit-card-dark">
+            <h2 class="fit-title">This is NOT for you if:</h2>
+            <ul class="fit-list" id="not_for_list">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">FAQ</h2>
+          <p class="section-subtitle">Real questions. Straight answers.</p>
+        </div>
+
+        <div class="accordion" id="faq_accordion">
+          <div class="accordion-item">
+            <button class="accordion-btn" type="button">
+              <span>How long do I get access?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p class="accordion-text">Lifetime access. Watch it whenever you want.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-btn" type="button">
+              <span>Do I need experience?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p class="accordion-text">No. This is built for men at any stage — whether you’re starting from scratch or
+                recalibrating after years of drifting.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-btn" type="button">
+              <span>Is there a refund policy?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="accordion-content">
+              <p class="accordion-text" id="refund_text">Yes. 7 days. If it’s not for you, request a refund.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta">
+      <div class="container">
+        <div class="final-cta-card">
+          <h2 class="final-title" id="final_title">Stop consuming. Start building.</h2>
+          <p class="final-subtitle" id="final_subtitle">
+            You don’t need more information. You need a plan and standards.
+          </p>
+          <div class="final-actions">
+            <a class="btn btn-primary btn-lg" id="final_buy_btn" href="#" rel="nofollow">Enroll Now</a>
+            <a class="btn btn-ghost btn-lg" href="#curriculum">See What’s Inside</a>
+          </div>
+          <p class="small-note" id="final_note">Instant access • lifetime access • start today</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <p class="footer-brand">A Success &amp; Brawn Product</p>
+          <p class="footer-note" id="footer_note">
+            No fluff. No hype. Just execution.
+          </p>
+        </div>
+
+        <div class="footer-right">
+          <a class="footer-link" href="#" target="_blank" id="footer_terms">Terms</a>
+          <a class="footer-link" href="#" target="_blank" id="footer_privacy">Privacy</a>
+          <a class="footer-link" href="#" target="_blank" id="footer_contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy" id="footer_copy">
+          &copy; <span id="year"></span> Success &amp; Brawn. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
