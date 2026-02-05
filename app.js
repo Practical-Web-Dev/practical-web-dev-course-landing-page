@@ -55,7 +55,7 @@ const course_config = {
   ],
 
   // put your Teachable checkout link here
-  buy_url: "https://susscessandbrawn.teachable.com/purchase?product_id=6483352",
+  buy_url: "https://susscessandbrawn.teachable.com/purchase?product_id=6625168",
 
   hero_image: "img/complete-web-dev-thumbnail.webp",
 
