@@ -15,8 +15,8 @@ const course_config = {
   meta_hours: "40+",
   meta_lessons: "444",
 
-  price: "$50",
-  price_note: "one-time purchase",
+  price: "$29.99 (40% OFF)",
+  price_note: "🚨 LIMITED TIME Flash Sale  🚨",
 
   guarantee_note: "7-day no-BS refund policy.",
   refund_text: "Yes. 7 days. If it’s not for you, request a refund.",
@@ -55,7 +55,7 @@ const course_config = {
   ],
 
   // put your Teachable checkout link here
-  buy_url: "https://susscessandbrawn.teachable.com/purchase?product_id=6625168",
+  buy_url: "https://susscessandbrawn.teachable.com/l/pdp/practical-web-dev-full-stack-javascript-php-course",
 
   hero_image: "img/complete-web-dev-thumbnail.webp",
 
